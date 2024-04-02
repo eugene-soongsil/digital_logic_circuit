@@ -3,6 +3,7 @@ module counter(
     input           rst_n,
     output [3:0]    cnt
 );
+test
 
 //output으로 내보낼 4bit cnt resistor(r_cnt) 선언
 reg [3:0] r_cnt;
