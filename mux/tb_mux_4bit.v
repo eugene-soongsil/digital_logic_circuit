@@ -13,6 +13,7 @@ mux_4bit        inst_mux(
     .d(d)
 );
 
+//a와 b의 값을 정의하고 sel 을 1에서 0으로 변경
 initial begin
     a = 4'b1111; b = 4'b0101;
     sel = 1'b1;

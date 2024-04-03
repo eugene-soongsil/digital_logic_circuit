@@ -5,12 +5,13 @@ module mux_4bit(
     output reg [3:0]   d 
 );
 
+//combinational circut
 always@(*)begin
-    if(sel)
+    if(sel) //sel = 1
         d = a;
-    else if(!sel)
+    else if(!sel) //sel = 0
         d = b;
-    else ;
+    else ; // sel의 값을 알 수 없을때 
 end
 
 endmodule

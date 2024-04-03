@@ -14,6 +14,7 @@ decoder     inst_decoder(
     .d3(d3)
 );
 
+//i0, i1 조합 생성
 initial begin
     i0 = 0; i1 = 0;
     #10
